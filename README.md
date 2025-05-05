@@ -1,8 +1,9 @@
+Tressure NFT
 
-
-````
+````http
 GET https://treasurefun.xyz/gateway/app/explore/artists?size=20&page=1&category=polygonNFT
 ````
+
 category = stake, polygonNFT, artwork, collection
 
 ````json
@@ -593,5 +594,6 @@ GET https://treasurefun.xyz/gateway/app/reserve/deposit?index=2&startPrice=2000&
         "reward": 2.497
     }
 }
-````#   t r e a s u r e N F T  
+````#   t r e a s u r e N F T 
+ 
  
