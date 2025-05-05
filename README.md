@@ -594,6 +594,6 @@ GET https://treasurefun.xyz/gateway/app/reserve/deposit?index=2&startPrice=2000&
         "reward": 2.497
     }
 }
-````#   t r e a s u r e N F T 
- 
- 
+````#   t r e a s u r e N F T 
+ 
+ 
