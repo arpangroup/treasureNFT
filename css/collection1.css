@@ -1,0 +1,103 @@
+.finance-card[data-v-4214013e] {
+    padding: 24px;
+    border: 1.5px solid #d8d8d8;
+    -webkit-box-shadow: 0 4.55952px 9.11905px 2px rgba(0,0,0,.1);
+    box-shadow: 0 4.55952px 9.11905px 2px rgba(0,0,0,.1);
+    border-radius: 18px;
+    overflow: hidden
+}
+
+.finance-card__field[data-v-4214013e] {
+    font-size: 14px;
+    color: #8797b0;
+    font-weight: 400
+}
+
+.finance-card__field--highlight[data-v-4214013e] {
+    font-size: 18px
+}
+
+.finance-card__value[data-v-4214013e] {
+    font-size: 14px;
+    font-weight: 700;
+    color: #0a0a09
+}
+
+.finance-card__value--highlight[data-v-4214013e] {
+    font-size: 18px
+}
+
+.finance-card__day[data-v-4214013e] {
+    display: inline-block;
+    width: 80px;
+    padding: 4px;
+    border: 1px solid #26a17b;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: #26a17b
+}
+
+.finance-card__title[data-v-4214013e] {
+    color: #3d4045;
+    font-size: 20px;
+    font-weight: 700
+}
+
+.finance-card__divider[data-v-4214013e] {
+    height: 1px;
+    border-width: 0;
+    background-color: #e6e6e6;
+    margin: 10px 0
+}
+
+.finance-card__img-box[data-v-4214013e] {
+    position: relative;
+    border-radius: 11.4px;
+    overflow: hidden
+}
+
+.finance-card__img[data-v-4214013e] {
+    display: block;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 11.4px
+}
+
+.finance-card__wedge[data-v-4214013e] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 152px;
+    height: 43px
+}
+
+.finance-card__wedge-text[data-v-4214013e] {
+    color: #ffe6d4;
+    font-size: 24px;
+    font-weight: 700
+}
+
+.finance-card__icon[data-v-4214013e] {
+    vertical-align: middle
+}
+
+@media screen and (max-width: 768px) {
+    .finance-card[data-v-4214013e] {
+        padding:16px
+    }
+
+    .finance-card__wedge[data-v-4214013e] {
+        width: 128px;
+        height: 36px
+    }
+
+    .finance-card__wedge-text[data-v-4214013e] {
+        font-size: 18px
+    }
+}
+
+.color-green[data-v-4214013e] {
+    color: #26a17b
+}

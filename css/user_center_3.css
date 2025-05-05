@@ -1,0 +1,127 @@
+.UserAssetsInfo[data-v-3705606e] {
+    padding: 5% 5% 0 5%
+}
+
+.UserAssetsInfo .table[data-v-3705606e] {
+    overflow-x: auto;
+    padding-bottom: 24px
+}
+
+.UserAssetsInfo .table__inner[data-v-3705606e] {
+    width: 1000px
+}
+
+.UserAssetsInfo__balance[data-v-3705606e] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: end
+}
+
+.UserAssetsInfo__icon[data-v-3705606e] {
+    width: 24px;
+    height: 24px
+}
+
+.UserAssetsInfo__Col[data-v-3705606e] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.UserAssetsInfo__mbItem[data-v-3705606e] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse
+}
+
+.UserAssetsInfo .daily-btn[data-v-3705606e] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid #e6e5ea;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 45px;
+    width: 144px;
+    border-radius: 15px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer
+}
+
+.UserAssetsInfo .daily-btn img[data-v-3705606e] {
+    display: block;
+    width: 22px;
+    -o-object-fit: contain;
+    object-fit: contain
+}
+
+.UserAssetsInfo .daily-btn span[data-v-3705606e] {
+    color: #8797b0;
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    line-height: 1.05
+}
+
+.UserAssetsInfo .ellipsis-text[data-v-3705606e] {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+    white-space: pre-wrap;
+    width: 100%
+}
+
+@media screen and (max-width: 768px) {
+    .UserAssetsInfo__icon[data-v-3705606e] {
+        width:14px;
+        height: 14px;
+        margin-right: 5px
+    }
+}
+
+.w-30[data-v-3705606e] {
+    width: 30%
+}
+
+.w-35[data-v-3705606e] {
+    width: 35%
+}
+
+.label-column[data-v-3705606e] {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 135px;
+    flex: 0 0 135px
+}
+
+.text-align-center[data-v-3705606e] {
+    text-align: center
+}
+
+.flex-grow-0[data-v-3705606e] {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 0px;
+    flex: 1 1 0
+}

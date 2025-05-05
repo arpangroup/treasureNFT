@@ -1,0 +1,309 @@
+.reserve-notice-modal .ivu-modal-content {
+    padding: 5%;
+    border-radius: 20px
+}
+
+.reserve-notice-modal .ivu-modal-body {
+    text-align: center;
+    position: relative
+}
+
+.reserve-notice-modal .ivu-modal-body img {
+    width: 80px
+}
+
+.reserve-notice-modal .ivu-modal-body .success-animation-block {
+    margin-bottom: -80px !important
+}
+
+.reserve-notice-modal .ivu-modal-body p {
+    white-space: pre-line
+}
+
+.reserve-notice-modal .ivu-modal-footer {
+    border-top: none
+}
+
+.reserve-notice-modal span {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 400;
+    white-space: pre-line
+}
+
+.exploreDetail {
+    padding-bottom: 100px
+}
+
+.exploreDetail .left-side {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.exploreDetail .detail-area {
+    margin: auto 20px;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2
+}
+
+.exploreDetail .detail-area .timer-btn {
+    padding: 0 5px
+}
+
+.exploreDetail .detail-area .timer-btn span {
+    font-size: 12px;
+    font-weight: 700;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.exploreDetail .detail-area .timer-btn span img {
+    width: 22px;
+    height: 22px;
+    margin: -3px 5px 0 0
+}
+
+.exploreDetail .detail-area .product-area .product-name-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.exploreDetail .detail-area .product-area .product-name-area .product-name {
+    color: #3d4045;
+    font-size: 24px;
+    font-weight: 600;
+    word-break: break-word;
+    margin: 5px 0
+}
+
+.exploreDetail .detail-area .product-area .product-detail-area {
+    color: #8797b0;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 30px
+}
+
+.exploreDetail .detail-area .product-area .product-detail-area .coinIcon-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.exploreDetail .detail-area .product-area .product-detail-area .coinIcon-block .coinIconUSDT {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px
+}
+
+.exploreDetail .product-div {
+    position: relative
+}
+
+.exploreDetail .product-div-img {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.exploreDetail .product-div .arrowLeft {
+    position: absolute;
+    top: 15px;
+    left: 10px
+}
+
+.exploreDetail .analysis-area {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+    padding: 0;
+    margin-top: 20px
+}
+
+.exploreDetail .analysis-area .analysis-title {
+    color: #3d4045;
+    font-weight: 500;
+    font-size: 26px;
+    text-align: start;
+    margin: 0 20px 20px 20px
+}
+
+.exploreDetail .analysis-area .reserve-btn {
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%
+}
+
+.exploreDetail .analysis-area .reserve-ticket {
+    color: #ec6898;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px
+}
+
+.exploreDetail .level-area {
+    margin: 30px 20px
+}
+
+.exploreDetail .level-area .level-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 10px
+}
+
+.exploreDetail .level-area .level-wrap .medal-img {
+    width: calc(1.5rem + 6px)
+}
+
+.exploreDetail .level-area .level-wrap .level-text {
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 16px
+}
+
+.exploreDetail .level-area .range-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.exploreDetail .level-area .range-wrap .range-text {
+    font-weight: 500;
+    font-size: 14px;
+    color: #8797b0
+}
+
+.exploreDetail .level-area .range-wrap .range-coinIcon-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.exploreDetail .level-area .range-wrap .range-coinIcon-block .coinIconUSDT {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px
+}
+
+.exploreDetail .level-area .range-wrap .range-coinIcon-block .coin-text {
+    font-weight: 600;
+    font-size: 16px
+}
+
+.exploreDetail .right-side {
+    display: none
+}
+
+@media screen and (min-width:768px) {
+    .exploreDetail {
+        margin-top: 0;
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px)
+    }
+
+    .exploreDetail .right-side {
+        display: block
+    }
+
+    .exploreDetail .right-side .img-block {
+        text-align: center;
+        margin-right: 5%;
+        padding: 5vw 0 35px 5vw;
+        height: 100%
+    }
+
+    .exploreDetail .right-side .img-block picture {
+        margin: 0 auto
+    }
+
+    .exploreDetail .right-side .img-block .product-right-BIGimg {
+        width: 100%
+    }
+
+    .exploreDetail .right-side .btn-block-wrapper {
+        padding: 0 0 35px 5vw;
+        margin-right: 5%
+    }
+
+    .exploreDetail .right-side .btn-block {
+        margin: 0 auto;
+        max-width: 170px
+    }
+
+    .exploreDetail .right-side .product-right-img {
+        width: 100%;
+        height: 100%;
+        max-height: 600px;
+        -o-object-fit: contain;
+        object-fit: contain
+    }
+
+    .exploreDetail .left-side {
+        padding: 5vw 20px 5vw 15vw;
+        display: block
+    }
+
+    .exploreDetail .left-side .analysis-area {
+        border-top: 2px solid #ededed;
+        padding: 20px 0
+    }
+
+    .exploreDetail .left-side .analysis-area .analysis-title {
+        text-align: left
+    }
+
+    .exploreDetail .left-side .analysis-area .ve-line {
+        -webkit-transform: translateX(-10%);
+        transform: translateX(-10%)
+    }
+
+    .exploreDetail .left-side .detail-area {
+        margin: auto 0
+    }
+
+    .exploreDetail .left-side .product-area .product-detail-area {
+        margin-bottom: 0
+    }
+
+    .exploreDetail .left-side .product-area .product-detail-area .coinIcon-block .coinIconUSDT {
+        width: 18px;
+        height: 18px;
+        margin-right: 5px
+    }
+
+    .exploreDetail .left-side .product-area .product-purchase {
+        display: none
+    }
+
+    .exploreDetail .left-side .product-area .range-wrap .range-coinIcon-block .coinIconUSDT {
+        width: 18px;
+        height: 18px;
+        margin-right: 5px
+    }
+}
