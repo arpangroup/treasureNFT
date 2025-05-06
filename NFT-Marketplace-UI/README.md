@@ -14,6 +14,15 @@ NFT Marketplace template for creation, sale, and purchase of digital art as NFTs
 
 ## Build Setup
 
+````
+https://nft-marketplace-ui.netlify.app/
+https://map-route-app.netlify.app/
+https://maths-quest.netlify.app/
+https://kasim393.github.io/covid-19-dashboard/#
+https://notes-keeping.netlify.app/
+https://kasim393.github.io/Resume-Builder/index.html
+````
+
 ``` bash
 # clone project
 $ git clone https://github.com/kasim393/NFT-Marketplace.git
