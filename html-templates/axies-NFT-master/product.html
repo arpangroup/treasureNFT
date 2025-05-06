@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="assests/img/07_icon/favicon.ico" type="image/x-icon">
+    <title>Item Details</title>
+    <link rel="stylesheet" href="css/home/home.css">
+    <link rel="stylesheet" href="css/product/product.css">
+    <link rel="stylesheet" href="assests/fontawesome/css/all.css">
+</head>
+
+<body>
+
+    <header id="productHeader">
+
+        <div class="container">
+
+            <nav class="navbar">
+
+                <div class="navbar__logo">
+                    <img src="assests/img/01_header/logo_dark.png" alt="NFTs">
+                </div>
+
+                <div class="navbar__nav">
+                    <ul class="nav__lists">
+                        <li class="nav__list">
+                            <a class="nav__link" href="index.html">Home</a>
+                            <ul class="nav__dropdown">
+                                <li><a class="nav__link" href="">Link 1</a></li>
+                                <li><a class="nav__link" href="">Link 1</a></li>
+                                <li><a class="nav__link" href="">Link 1</a></li>
+                                <li><a class="nav__link" href="">Link 1</a></li>
+                                <li><a class="nav__link" href="">Link 1</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__list">
+                            <a class="nav__link" href="">Expolore</a>
+                            <ul class="nav__dropdown">
+                                <li><a class="nav__link" href="product.html">Item Details 1</a></li>
+                                <li><a class="nav__link" href="">Item Details 2</a></li>
+                                <li><a class="nav__link" href="">Item Details 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__list">
+                            <a class="nav__link" href="">Activity</a>
+                            <ul class="nav__dropdown">
+                                <li><a class="nav__link" href="">Link 1</a></li>
+                                <li><a class="nav__link" href="">Link 1</a></li>
+                                <li><a class="nav__link" href="">Link 1</a></li>
+                                <li><a class="nav__link" href="">Link 1</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__list">
+                            <a class="nav__link" href="">Commiunity</a>
+                            <ul class="nav__dropdown">
+                                <li><a class="nav__link" href="">Link 1</a></li>
+                                <li><a class="nav__link" href="">Link 1</a></li>
+                                <li><a class="nav__link" href="">Link 1</a></li>
+                                <li><a class="nav__link" href="">Link 1</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__list">
+                            <a class="nav__link" href="">Pages</a>
+                            <ul class="nav__dropdown">
+                                <li><a class="nav__link" href="">Link 1</a></li>
+                                <li><a class="nav__link" href="">Link 1</a></li>
+                                <li><a class="nav__link" href="">Link 1</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__list">
+                            <a class="nav__link" href="">Contact</a>
+                            <ul class="nav__dropdown">
+                                <li><a class="nav__link" href="">Link 1</a></li>
+                                <li><a class="nav__link" href="">Link 1</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="navbar__search">
+                    <input type="search" class="search__input">
+                    <div class="fa-solid fa-search"></div>
+                </div>
+
+                <div class="navbar__whallet">
+                    <button type="button" class="btn btn__primary whallet__btn"><i class="fa-solid fa-wallet"></i>  Whallet Coonect</button>
+                </div>
+
+                <div class="navbar__mood">
+                    <a href="login.html" class="navbar__mood-link  navbar__login"><img src="assests/img/01_header/login.png"></a>
+                    <a href="#" class="navbar__mood-link light__mood"><img src="assests/img/01_header/sun.png"></a>
+                    <a href="#" class="navbar__mood-link dark__mood"><img src="assests/img/01_header/moon-2.png"></a>
+                    <a class="navbar__mood-link navSide__open" id="navSide__open" onclick="openNav()"><i class="fa-solid fa-navicon"></i></a>
+                </div>
+
+                <div class="navSide" id="navSide">
+                    <div class="navSide__Close--box">
+                        <a class="navSide__close" id="navSide__close" onclick="closeNav()"><i class="fa-solid fa-close"></i></a>
+                    </div>
+                    <ul class="navSide__lists">
+                        <li class="navSide__list">
+                            <button class="navSide__dropdown">Home <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                            <ul class="dropdown__box">
+                                <li><a class="navSide__link" href="profile.html">Profile</a></li>
+                                <li><a class="navSide__link" href="">Link 1</a></li>
+                                <li><a class="navSide__link" href="">Link 1</a></li>
+                                <li><a class="navSide__link" href="">Link 1</a></li>
+                                <li><a class="navSide__link" href="">Link 1</a></li>
+                            </ul>
+                        </li>
+                        <li class="navSide__list">
+                            <button class="navSide__dropdown">Expolore <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                            <ul class="dropdown__box">
+                                <li><a class="navSide__link" href="product.html">Item Details 1</a></li>
+                                <li><a class="navSide__link" href="">Item Details 2</a></li>
+                                <li><a class="navSide__link" href="">Item Details 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="navSide__list">
+                            <button class="navSide__dropdown">Activity <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                            <ul class="dropdown__box">
+                                <li><a class="navSide__link" href="">Link 1</a></li>
+                                <li><a class="navSide__link" href="">Link 1</a></li>
+                                <li><a class="navSide__link" href="">Link 1</a></li>
+                                <li><a class="navSide__link" href="">Link 1</a></li>
+                            </ul>
+                        </li>
+                        <li class="navSide__list">
+                            <button class="navSide__dropdown">Commiunity <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                            <ul class="dropdown__box">
+                                <li><a class="navSide__link" href="">Link 1</a></li>
+                                <li><a class="navSide__link" href="">Link 1</a></li>
+                                <li><a class="navSide__link" href="">Link 1</a></li>
+                                <li><a class="navSide__link" href="">Link 1</a></li>
+                            </ul>
+                        </li>
+                        <li class="navSide__list">
+                            <button class="navSide__dropdown">Pages <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                            <ul class="dropdown__box">
+                                <li><a class="navSide__link" href="">Link 1</a></li>
+                                <li><a class="navSide__link" href="">Link 1</a></li>
+                                <li><a class="navSide__link" href="">Link 1</a></li>
+                            </ul>
+                        </li>
+                        <li class="navSide__list">
+                            <button class="navSide__dropdown">Contact <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                            <ul class="dropdown__box">
+                                <li><a class="navSide__link" href="">Link 1</a></li>
+                                <li><a class="navSide__link" href="">Link 1</a></li>
+                            </ul>
+                        </li>
+                        <li class="navSide__list navSide__bottom">
+                            <div class="navbar__whallet">
+                                <button type="button" class="btn btn__primary whallet__btn"><i class="fa-solid fa-wallet"></i></button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section id="projectHero">
+            <div class="container">
+                <div class="productHero__title">
+                    <h1>Item Details 1</h1>
+                </div>
+                <div class="productHero__link">
+                    <a href="#">Home</a> &nbsp;&nbsp;<span>/</span>&nbsp;&nbsp; <a href="#">Explore</a> &nbsp;&nbsp;<span>/</span>&nbsp;&nbsp; <a href="#" class="checked">Item Details 1</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="product">
+            <div class="container">
+                <div class="product__wrapper">
+                    <div class="product__img">
+                        <img src="assests/img/product/product.jpg" alt="product">
+                    </div>
+                    <div class="product__details">
+                        <div class="product__title">
+                            <h2>"The Fantasy Flower Illustration</h2>
+                        </div>
+                        <div class="product__publish">
+                            <div class="product__publish--left">
+                                <div class="product__view">
+                                    <i class="fa-solid fa-eye"></i>225
+                                </div>
+                                <div class="product__like">
+                                    <i class="fa-solid fa-heart"></i>100
+                                </div>
+                            </div>
+                            <div class="product__publish--right">
+                                <div class="product__share">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                </div>
+                                <div class="product__ellipsis">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__owner">
+                            <div class="product__owner--box">
+                                <div class="product__img--box">
+                                    <img src="assests/img/04_Top Seller/avt-1.jpg" class="product__owner--img">
+                                    <i class="fa-solid fa-check seller__checked"></i>
+                                </div>
+                                <div>
+                                    <p class="product__owner--position">Owned By</p>
+                                    <p class="product__owner--name">Crispin Berry</p>
+                                </div>
+                            </div>
+                            <div class="product__owner--box">
+                                <div class="product__img--box">
+                                    <img src="assests/img/04_Top Seller/avt-2.jpg" class="product__owner--img">
+                                    <i class="fa-solid fa-check seller__checked"></i>
+                                </div>
+                                <div>
+                                    <p class="product__owner--position">Created By</p>
+                                    <p class="product__owner--name">Crispin Berry</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <div class="product__bid">
+                            <div class="product__bid--left">
+                                <p>Current Bid</p>
+                                <p>4.89 ETH = $12.246</p>
+                            </div>
+                            <div class="product__bid--right">
+                                <p>Countdown</p>
+                                <p>4 : 19 : 39 : 48</p>
+                            </div>
+                        </div>
+                        <div class="product__btn">
+                            <button class="btn btn__product"><i class="fa-solid fa-bag-shopping"></i><span>Place a Bid</span></button>
+                        </div>
+                        <div class="product__content tabs">
+                            <input type="radio" name="tab" id="tab1" role="tab" checked>
+                            <label for="tab1" id="tab1-label">Bid History</label>
+                            <section aria-labelledby="tab1-label">
+                                <div class="product__content--box">
+                                    <div class="product__img--box">
+                                        <img src="assests/img/04_Top Seller/avt-2.jpg" class="product__content--img">
+                                        <i class="fa-solid fa-check seller__checked"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Mason Woodward <span>place a bid</span></h4>
+                                        <p>8 hours ago</p>
+                                    </div>
+                                    <div>
+                                        <h4>4.89 ETC</h4>
+                                        <p>$12.246</p>
+                                    </div>
+                                </div>
+                                <div class="product__content--box">
+                                    <div class="product__img--box">
+                                        <img src="assests/img/04_Top Seller/avt-4.jpg" class="product__content--img">
+                                        <i class="fa-solid fa-check seller__checked"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Mason Woodward <span>place a bid</span></h4>
+                                        <p>8 hours ago</p>
+                                    </div>
+                                    <div>
+                                        <h4>4.89 ETC</h4>
+                                        <p>$12.246</p>
+                                    </div>
+                                </div>
+                                <div class="product__content--box">
+                                    <div class="product__img--box">
+                                        <img src="assests/img/04_Top Seller/avt-3.jpg" class="product__content--img">
+                                        <i class="fa-solid fa-check seller__checked"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Mason Woodward <span>place a bid</span></h4>
+                                        <p>8 hours ago</p>
+                                    </div>
+                                    <div>
+                                        <h4>4.89 ETC</h4>
+                                        <p>$12.246</p>
+                                    </div>
+                                </div>
+                            </section>
+                            <input type="radio" name="tab" id="tab2" role="tab">
+                            <label for="tab2" id="tab2-label">Info</label>
+                            <section aria-labelledby="tab2-label">
+                                <div class="product__content--box">
+                                    <div class="product__img--box">
+                                        <img src="assests/img/04_Top Seller/avt-4.jpg" class="product__content--img">
+                                        <i class="fa-solid fa-check seller__checked"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Mason Woodward <span>place a bid</span></h4>
+                                        <p>8 hours ago</p>
+                                    </div>
+                                    <div>
+                                        <h4>4.89 ETC</h4>
+                                        <p>$12.246</p>
+                                    </div>
+                                </div>
+                            </section>
+                            <input type="radio" name="tab" id="tab3" role="tab">
+                            <label for="tab3" id="tab3-label">Provenance</label>
+                            <section aria-labelledby="tab3-label">
+                                <div class="product__content--box">
+                                    <div class="product__img--box">
+                                        <img src="assests/img/04_Top Seller/avt-1.jpg" class="product__content--img">
+                                        <i class="fa-solid fa-check seller__checked"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Mason Woodward <span>place a bid</span></h4>
+                                        <p>8 hours ago</p>
+                                    </div>
+                                    <div>
+                                        <h4>4.89 ETC</h4>
+                                        <p>$12.246</p>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="auctions" class="">
+            <div class="container">
+                <div class="title">
+                    <h2>Live Auctions</h2>
+                    <p>Explore More</p>
+                </div>
+                <div class="owl-carousel carousel_01">
+                    <div class="item ">
+                        <div class="auctions__box">
+                            <div class="auctions__img">
+                                <div class="auctions__place">
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                    <span>Place Bid</span>
+                                </div>
+                                <img src="assests/img/03_Live Auctions/image-box-10.jpg" alt="auctions">
+                            </div>
+                            <div class="auctions__name">
+                                “Hamlet Contemplates Yorick’s...
+                            </div>
+                            <div class="auctions__creator">
+                                <div class="auctions__creator--img">
+                                    <div>
+                                        <img src="assests/img/04_Top Seller/avt-2.jpg" alt="auctions creator">
+                                    </div>
+                                    <div>
+                                        <p>Creator</p>
+                                        <p><span>SalvadorDali</span></p>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <button class="btn auctions__btn">BSC</button>
+                                </div>
+                            </div>
+                            <div class="auctions__bid">
+                                <div class="auctions__creator--content">
+                                    <p>Current Bid</p>
+                                    <p><span>4.89 ETH</span> = $12.246</p>
+                                </div>
+                                <div class="auctions__like">
+                                    <i class="fa-solid fa-heart"></i> 100
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="auctions__box">
+                            <div class="auctions__img">
+                                <div class="auctions__place">
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                    <span>Place Bid</span>
+                                </div>
+                                <img src="assests/img/03_Live Auctions/image-box-11.jpg" alt="auctions">
+                            </div>
+                            <div class="auctions__name">
+                                “Hamlet Contemplates Yorick’s...
+                            </div>
+                            <div class="auctions__creator">
+                                <div class="auctions__creator--img">
+                                    <div>
+                                        <img src="assests/img/04_Top Seller/avt-3.jpg" alt="auctions creator">
+                                    </div>
+                                    <div>
+                                        <p>Creator</p>
+                                        <p><span>SalvadorDali</span></p>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <button class="btn auctions__btn">BSC</button>
+                                </div>
+                            </div>
+                            <div class="auctions__bid">
+                                <div class="auctions__creator--content">
+                                    <p>Current Bid</p>
+                                    <p><span>4.89 ETH</span> = $12.246</p>
+                                </div>
+                                <div class="auctions__like">
+                                    <i class="fa-solid fa-heart"></i> 100
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="auctions__box">
+                            <div class="auctions__img">
+                                <div class="auctions__place">
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                    <span>Place Bid</span>
+                                </div>
+                                <img src="assests/img/03_Live Auctions/image-box-21.jpg" alt="auctions">
+                            </div>
+                            <div class="auctions__name">
+                                “Hamlet Contemplates Yorick’s...
+                            </div>
+                            <div class="auctions__creator">
+                                <div class="auctions__creator--img">
+                                    <div>
+                                        <img src="assests/img/04_Top Seller/avt-4.jpg" alt="auctions creator">
+                                    </div>
+                                    <div>
+                                        <p>Creator</p>
+                                        <p><span>SalvadorDali</span></p>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <button class="btn auctions__btn">BSC</button>
+                                </div>
+                            </div>
+                            <div class="auctions__bid">
+                                <div class="auctions__creator--content">
+                                    <p>Current Bid</p>
+                                    <p><span>4.89 ETH</span> = $12.246</p>
+                                </div>
+                                <div class="auctions__like">
+                                    <i class="fa-solid fa-heart"></i> 100
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="auctions__box">
+                            <div class="auctions__img">
+                                <div class="auctions__place">
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                    <span>Place Bid</span>
+                                </div>
+                                <img src="assests/img/03_Live Auctions/card-item8.jpg" alt="auctions">
+                            </div>
+                            <div class="auctions__name">
+                                “Hamlet Contemplates Yorick’s...
+                            </div>
+                            <div class="auctions__creator">
+                                <div class="auctions__creator--img">
+                                    <div>
+                                        <img src="assests/img/04_Top Seller/avt-1.jpg" alt="auctions creator">
+                                    </div>
+                                    <div>
+                                        <p>Creator</p>
+                                        <p><span>SalvadorDali</span></p>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <button class="btn auctions__btn">BSC</button>
+                                </div>
+                            </div>
+                            <div class="auctions__bid">
+                                <div class="auctions__creator--content">
+                                    <p>Current Bid</p>
+                                    <p><span>4.89 ETH</span> = $12.246</p>
+                                </div>
+                                <div class="auctions__like">
+                                    <i class="fa-solid fa-heart">100</i> 100
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="auctions__box">
+                            <div class="auctions__img">
+                                <div class="auctions__place">
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                    <span>Place Bid</span>
+                                </div>
+                                <img src="assests/img/03_Live Auctions/image-box-10.jpg" alt="auctions creator">
+                            </div>
+                            <div class="auctions__name">
+                                “Hamlet Contemplates Yorick’s...
+                            </div>
+                            <div class="auctions__creator">
+                                <div class="auctions__creator--img">
+                                    <div>
+                                        <img src="assests/img/04_Top Seller/avt-2.jpg" alt="auctions">
+                                    </div>
+                                    <div>
+                                        <p>Creator</p>
+                                        <p><span>SalvadorDali</span></p>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <button class="btn auctions__btn">BSC</button>
+                                </div>
+                            </div>
+                            <div class="auctions__bid">
+                                <div class="auctions__creator--content">
+                                    <p>Current Bid</p>
+                                    <p><span>4.89 ETH</span> = $12.246</p>
+                                </div>
+                                <div class="auctions__like">
+                                    <i class="fa-solid fa-heart"></i> 100
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__box">
+                    <img class="footer__logo" src="assests/img/01_header/logo_dark.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non adipiscing consectetur phasellus nunc nunc vel. </p>
+                </div>
+                <div class="footer__box">
+                    <h3>My Account</h3>
+                    <ul class="footer__link">
+                        <li><a href="#">Authors</a></li>
+                        <li><a href="#">Collection</a></li>
+                        <li><a href="#">Author Profile</a></li>
+                        <li><a href="#">Create Item</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer__box">
+                    <h3>Resources</h3>
+                    <ul class="footer__link">
+                        <li><a href="#">Help & Support</a></li>
+                        <li><a href="#">Live Auctions</a></li>
+                        <li><a href="#">Item Details</a></li>
+                        <li><a href="#">Activity</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="footer__box">
+                    <h3>Company</h3>
+                    <ul class="footer__link">
+                        <li><a href="#">Explore</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Our Blog</a></li>
+                        <li><a href="#">FAQ</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="footer__box">
+                    <h3>Subscribe Us</h3>
+                    <div class="footer__email">
+                        <input class="footer__input">
+                        <button class="footer__btn"><i class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                    <ul class="footer__social">
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-discord"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="top"><a href="#header"><i class="fa-solid fa-chevron-up"></i></a></div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/navSide.js"></script>
+</body>
+
+</html>

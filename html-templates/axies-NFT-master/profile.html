@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="assests/img/07_icon/favicon.ico" type="image/x-icon">
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/home/home.css">
+    <link rel="stylesheet" href="css/profile/profile.css">
+    <link rel="stylesheet" href="assests/fontawesome/css/all.css">
+</head>
+<body>
+
+
+<header id="profileHeader">
+
+    <div class="container">
+
+        <nav class="navbar">
+
+            <div class="navbar__logo">
+                <img src="assests/img/01_header/logo_dark.png" alt="NFTs">
+            </div>
+
+            <div class="navbar__nav">
+                <ul class="nav__lists">
+                    <li class="nav__list">
+                        <a class="nav__link" href="index.html">Home</a>
+                        <ul class="nav__dropdown">
+                            <li><a class="nav__link" href="profile.html">Profile</a></li>
+                            <li><a class="nav__link" href="">Link 1</a></li>
+                            <li><a class="nav__link" href="">Link 1</a></li>
+                            <li><a class="nav__link" href="">Link 1</a></li>
+                            <li><a class="nav__link" href="">Link 1</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__list">
+                        <a class="nav__link" href="">Expolore</a>
+                        <ul class="nav__dropdown">
+                            <li><a class="nav__link" href="product.html">Item Details 1</a></li>
+                            <li><a class="nav__link" href="">Item Details 2</a></li>
+                            <li><a class="nav__link" href="">Item Details 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__list">
+                        <a class="nav__link" href="">Activity</a>
+                        <ul class="nav__dropdown">
+                            <li><a class="nav__link" href="">Link 1</a></li>
+                            <li><a class="nav__link" href="">Link 1</a></li>
+                            <li><a class="nav__link" href="">Link 1</a></li>
+                            <li><a class="nav__link" href="">Link 1</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__list">
+                        <a class="nav__link" href="">Commiunity</a>
+                        <ul class="nav__dropdown">
+                            <li><a class="nav__link" href="">Link 1</a></li>
+                            <li><a class="nav__link" href="">Link 1</a></li>
+                            <li><a class="nav__link" href="">Link 1</a></li>
+                            <li><a class="nav__link" href="">Link 1</a></li>
+                        </ul></li>
+                    <li class="nav__list">
+                        <a class="nav__link" href="">Pages</a>
+                        <ul class="nav__dropdown">
+                            <li><a class="nav__link" href="">Link 1</a></li>
+                            <li><a class="nav__link" href="">Link 1</a></li>
+                            <li><a class="nav__link" href="">Link 1</a></li>
+                        </ul></li>
+                    <li class="nav__list">
+                        <a class="nav__link" href="">Contact</a>
+                        <ul class="nav__dropdown">
+                            <li><a class="nav__link" href="">Link 1</a></li>
+                            <li><a class="nav__link" href="">Link 1</a></li>
+                        </ul></li>
+                </ul>
+            </div>
+
+            <div class="navbar__search">
+                <input type="search" class="search__input">
+                <div class="fa-solid fa-search"></div>
+            </div>
+
+            <div class="navbar__whallet">
+                <button type="button" class="btn btn__primary whallet__btn"><i class="fa-solid fa-wallet"></i>  Whallet Coonect</button>
+            </div>
+
+            <div class="navbar__mood">
+                <a href="login.html" class="navbar__mood-link  navbar__login"><img src="assests/img/01_header/login.png"></a>
+                <a href="#" class="navbar__mood-link light__mood"><img src="assests/img/01_header/sun.png"></a>
+                <a href="#" class="navbar__mood-link dark__mood"><img src="assests/img/01_header/moon-2.png"></a>
+                <a class="navbar__mood-link navSide__open" id="navSide__open" onclick="openNav()"><i class="fa-solid fa-navicon"></i></a>
+            </div>
+
+            <div class="navSide" id="navSide">
+                <div class="navSide__Close--box">
+                    <a class="navSide__close" id="navSide__close" onclick="closeNav()"><i class="fa-solid fa-close"></i></a>
+                </div>
+                <ul class="navSide__lists">
+                    <li class="navSide__list">
+                        <button class="navSide__dropdown">Home <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                        <ul class="dropdown__box">
+                            <li><a class="navSide__link" href="profile.html">Profile</a></li>
+                            <li><a class="navSide__link" href="">Link 1</a></li>
+                            <li><a class="navSide__link" href="">Link 1</a></li>
+                            <li><a class="navSide__link" href="">Link 1</a></li>
+                            <li><a class="navSide__link" href="">Link 1</a></li>
+                        </ul>
+                    </li>
+                    <li class="navSide__list">
+                        <button class="navSide__dropdown">Expolore <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                        <ul class="dropdown__box">
+                            <li><a class="navSide__link" href="product.html">Item Details 1</a></li>
+                            <li><a class="navSide__link" href="">Item Details 2</a></li>
+                            <li><a class="navSide__link" href="">Item Details 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="navSide__list">
+                        <button class="navSide__dropdown">Activity <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                        <ul class="dropdown__box">
+                            <li><a class="navSide__link" href="">Link 1</a></li>
+                            <li><a class="navSide__link" href="">Link 1</a></li>
+                            <li><a class="navSide__link" href="">Link 1</a></li>
+                            <li><a class="navSide__link" href="">Link 1</a></li>
+                        </ul>
+                    </li>
+                    <li class="navSide__list">
+                        <button class="navSide__dropdown">Commiunity <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                        <ul class="dropdown__box">
+                            <li><a class="navSide__link" href="">Link 1</a></li>
+                            <li><a class="navSide__link" href="">Link 1</a></li>
+                            <li><a class="navSide__link" href="">Link 1</a></li>
+                            <li><a class="navSide__link" href="">Link 1</a></li>
+                        </ul>
+                    </li>
+                    <li class="navSide__list">
+                        <button class="navSide__dropdown">Pages <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                        <ul class="dropdown__box">
+                            <li><a class="navSide__link" href="">Link 1</a></li>
+                            <li><a class="navSide__link" href="">Link 1</a></li>
+                            <li><a class="navSide__link" href="">Link 1</a></li>
+                        </ul>
+                    </li>
+                    <li class="navSide__list">
+                        <button class="navSide__dropdown">Contact <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                        <ul class="dropdown__box">
+                            <li><a class="navSide__link" href="">Link 1</a></li>
+                            <li><a class="navSide__link" href="">Link 1</a></li>
+                        </ul>
+                    </li>
+                    <li class="navSide__list navSide__bottom">
+                        <div class="navbar__whallet">
+                            <button type="button" class="btn btn__primary whallet__btn"><i class="fa-solid fa-wallet"></i></button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main>
+    
+        <section class="sticky__bar">
+        <ul class="sticky__social">
+            <li><a href="#">Twitter <i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#">Facebook <i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#">Telegram <i class="fa-brands fa-telegram"></i></a></li>
+            <li><a href="#">Instagram <i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+    </section>
+
+    <section id="projectHero">
+        <div class="container">
+            <div class="productHero__title">
+                <h1>Edit Profile</h1>
+            </div>
+            <div class="productHero__link">
+                <a href="#">Home</a> &nbsp;&nbsp;<span>/</span>&nbsp;&nbsp; <a href="#">Page</a> &nbsp;&nbsp;<span>/</span>&nbsp;&nbsp; <a href="#" class="">Autor</a><span>/</span>&nbsp;&nbsp; <a href="#" class="checked">Edit Profile</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="profile">
+        <div class="container">
+            <div class="profile__wrapper">
+                <div class="profile__img">
+                    <img src="assests/img/04_Top%20Seller/avt-2.jpg" alt="profile">
+                    <button type="button" class="btn profile__btn"><i class="fa-solid fa-upload"></i>  Upload</button>
+                    <button type="button" class="btn profile__btn"><i class="fa-solid fa-trash"></i>  Delete</button>
+                </div>
+                <div class="profile__details">
+                    <div class="profile__cover">
+                        <div class="profile__btn--box">
+                            <button type="button" class="btn btn__primary profile__btn"><i class="fa-solid fa-upload"></i>  Upload File</button>
+                        </div>
+                        <div>
+                            <img src="assests/img/profile/background-1.webp">
+                        </div>
+                        <div>
+                            <img src="assests/img/profile/background-2.jpg">
+                        </div>
+                    </div>
+                    <div class="product__account">
+                        <form class="profile__form">
+                            <div class="product__account--top">
+                                <div class="product__account--left">
+                                    <div class="product__account--info">
+                                        <label for="name">Display Name</label>
+                                        <input type="text" class="product__input" id="name" name="name" placeholder="Trista Franas">
+                                    </div>
+                                    <div class="product__account--info">
+                                        <label for="url">Custom URL</label>
+                                        <input type="text" class="product__input" id="url" name="url" placeholder="axies.com">
+                                    </div>
+                                    <div class="product__account--info">
+                                        <label for="email">Email</label>
+                                        <input type="text" class="product__input" id="email" name="email" placeholder="Enter Your Email">
+                                    </div>
+                                    <div class="product__account--info">
+                                        <label for="bio">Bio</label>
+                                        <textarea class="product__input" id="bio" name="bio" type="textarea"></textarea>
+                                    </div>
+                                </div>
+                                <div class="product__account--right">
+                                    <div class="product__social">
+                                        <label for="facebook">Facebook</label>
+                                        <input type="text" class="product__input" id="facebook" name="facebook" placeholder="Facebook Username">
+                                        <button type="button" class="btn btn__primary social__btn"><i class="fa-brands fa-facebook"></i>  Connect to Facebook</button>
+                                    </div>
+                                    <div class="product__social">
+                                        <label for="twitter">Facebook</label>
+                                        <input type="text" class="product__input" id="twitter" name="twitter" placeholder="Twitter Username">
+                                        <button type="button" class="btn btn__primary social__btn"><i class="fa-brands fa-twitter"></i>  Connect to Twitter</button>
+                                    </div>
+                                    <div class="product__social">
+                                        <label for="discord">Facebook</label>
+                                        <input type="text" class="product__input" id="discord" name="discord" placeholder="Discord Username">
+                                        <button type="button" class="btn btn__primary social__btn"><i class="fa-brands fa-discord"></i>  Connect to Discord</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__account--bottom">
+                                <input type="submit" class="form__input" id="form-btn" name="form-btn" placeholder="Upload Profile">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer id="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <div class="footer__box">
+                <img class="footer__logo" src="assests/img/01_header/logo_dark.png">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non adipiscing consectetur phasellus nunc nunc vel. </p>
+            </div>
+            <div class="footer__box">
+                <h3>My Account</h3>
+                <ul class="footer__link">
+                    <li><a href="#">Authors</a></li>
+                    <li><a href="#">Collection</a></li>
+                    <li><a href="#">Author Profile</a></li>
+                    <li><a href="#">Create Item</a></li>
+
+                </ul>
+            </div>
+            <div class="footer__box">
+                <h3>Resources</h3>
+                <ul class="footer__link">
+                    <li><a href="#">Help & Support</a></li>
+                    <li><a href="#">Live Auctions</a></li>
+                    <li><a href="#">Item Details</a></li>
+                    <li><a href="#">Activity</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer__box">
+                <h3>Company</h3>
+                <ul class="footer__link">
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Our Blog</a></li>
+                    <li><a href="#">FAQ</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer__box">
+                <h3>Subscribe Us</h3>
+                <div class="footer__email">
+                    <input class="footer__input">
+                    <button class="footer__btn"><i class="fa-solid fa-paper-plane"></i></button>
+                </div>
+                <ul class="footer__social">
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-discord"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="top"><a href="#header"><i class="fa-solid fa-chevron-up"></i></a></div>
+    </div>
+</footer>
+
+<script src="js/navSide.js"></script>
+
+</body>
+</html>

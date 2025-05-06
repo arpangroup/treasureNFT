@@ -1,0 +1,39 @@
+.btn {
+    font-family: inherit;
+    padding: 1rem 1.5rem;
+    border-radius: var(--border-raduis-3xl);
+    outline: 0;
+    border: none;
+    box-shadow: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+
+.btn__primary {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 0.2rem var(--secondary-color);
+    -webkit-box-shadow: inset 0 0 0 0.2rem var(--secondary-color);
+    -ms-box-shadow: inset 0 0 0 0.2rem var(--secondary-color);
+    -o-box-shadow: inset 0 0 0 0.2rem var(--secondary-color);
+    color: var(--light-color);
+}
+
+.btn__primary:hover {
+    background: var(--secondary-color);
+    color: var(--light-color);
+}
+
+.btn__product {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 0.2rem var(--light-color);
+    -webkit-box-shadow: inset 0 0 0 0.2rem var(--light-color);
+    -ms-box-shadow: inset 0 0 0 0.2rem var(--light-color);
+    -o-box-shadow: inset 0 0 0 0.2rem var(--light-color);
+    color: var(--light-color);
+    width: 100%;
+}
+
+.btn__product:hover {
+    box-shadow: inset 0 0 0 2rem var(--light-color);
+    color: var(--dark-color)
+}

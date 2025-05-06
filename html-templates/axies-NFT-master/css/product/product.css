@@ -1,0 +1,349 @@
+#projectHero {
+    background: linear-gradient(55deg, #150025, transparent 30%);
+    position: relative;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+}
+
+#projectHero:before {
+    background: linear-gradient(55deg, var(--secondary-color) 15%, transparent 75%);
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 1;
+    z-index: -1;
+    background-position: 0px 0;
+    background-repeat: no-repeat;
+    background-size: 240% 100%;
+    background-position-x: 0px;
+    animation: bg-wave 3s ease-out infinite;
+}
+
+#projectHero:hover:before {
+    animation-play-state: paused;
+}
+
+@keyframes bg-wave {
+    0% {
+        background-position-x: 80%;
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        background-position-x: 0;
+        opacity: 0;
+    }
+}
+
+.productHero__title h1 {
+    text-align: center;
+    font-family: 'Urbanist';
+    font-size: 3.5rem;
+    padding-bottom: 1rem;
+    margin-top: 7rem;
+}
+
+.productHero__link {
+    display: flex;
+    justify-content: center;
+}
+
+.productHero__link a {
+    font-family: 'Urbanist';
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #a3a3a3;
+}
+
+.productHero__link .checked {
+    color: snow
+}
+
+.productHero__link span {
+    font-size: 1rem;
+}
+
+.product__wrapper {
+    display: flex;
+    gap: 3rem 3rem;
+    padding: 5rem 1rem;
+    font-family: 'Urbanist';
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: space-between;
+}
+
+.product__img {
+    flex: 47%;
+    display: grid;
+    align-items: stretch;
+    position: relative;
+    overflow: hidden;
+}
+
+.product__img::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, .2);
+    border-radius: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.product__img:hover::before {
+    -webkit-animation: circle .75s;
+    animation: circle .75s;
+}
+
+.product__details {
+    flex: 47%;
+    display: grid;
+    /* gap: 1rem; */
+    align-items: stretch;
+}
+
+.product__img img {
+    border-radius: var(--border-raduis-md);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.product__title h2 {
+    font-family: 'Urbanist';
+}
+
+.product__publish {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.product__publish--left {
+    display: flex
+}
+
+.product__publish--right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.product__view,
+.product__like {
+    background: var(--dark-color);
+    width: 8rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    padding: 0 1rem;
+    text-align: center;
+    font-weight: 500;
+    border-radius: var(--border-raduis-2xl);
+    margin: 0 0.5rem;
+}
+
+.product__view i,
+.product__like i {
+    padding-right: 0.5rem
+}
+
+.product__share,
+.product__ellipsis {
+    background: var(--primary-color);
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    padding: 0 1rem;
+    text-align: center;
+    border-radius: var(--border-raduis-2xl);
+    margin: 0 0.5rem;
+}
+
+.product__owner {
+    display: flex;
+    gap: 3rem;
+    margin: 1rem 0;
+}
+
+.product__owner--box {
+    display: flex;
+    background-color: var(--primary-color);
+    border-radius: var(--border-raduis-xl);
+    padding: 0.5rem 1rem;
+    flex: 50%;
+    align-items: center;
+}
+
+.product__owner--box .seller__checked {
+    left: 4.5rem;
+    top: 4.5rem;
+}
+
+.product__img--box {
+    position: relative
+}
+
+.product__owner--img {
+    width: 6rem;
+    border-radius: var(--border-raduis-xl);
+    transition: 0.4s;
+}
+
+.product__owner--img:hover {
+    border-radius: var(--border-raduis-3xl);
+}
+
+.product__owner--position {
+    padding: 0.7rem 0 0 1rem;
+    color: #cecece;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.product__owner--name {
+    padding: 0 0 0 1rem;
+}
+
+.product__text p {
+    color: #cecece;
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding: 0.5rem 0 2rem 0;
+}
+
+.product__bid {
+    display: flex;
+    gap: 4rem;
+}
+
+.product__bid--left,
+.product__bid--right {
+    display: flex;
+    background-color: var(--primary-color);
+    border-radius: var(--border-raduis-xl);
+    padding: 1rem 2rem;
+    flex: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__btn {
+    padding: 1.5rem 0 0.5rem 0;
+}
+
+.btn__product i {
+    padding-right: 0.5rem;
+}
+
+.product__content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem 0 0 0;
+}
+
+.product__content>section {
+    order: 999;
+    width: 100%;
+    display: none;
+}
+
+.product__content>input {
+    opacity: 0;
+    position: absolute;
+}
+
+.product__content>input[type=radio]:checked+label {
+    border-bottom: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+.product__content>input[type=radio]:checked+label+section {
+    display: unset;
+}
+
+.product__content>label {
+    padding: .5em 1em;
+    border-bottom: 1px solid transparent;
+}
+
+.product__content>label:last-of-type {
+    border-right: none;
+}
+
+.product__content>input[type=radio]:checked+label {
+    border-bottom: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+.product__content section {
+    padding: 1rem 0.4rem;
+}
+
+.product__content--box {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    border-bottom: 1px solid var(--primary-color);
+    padding: 0.5rem 0;
+    position: relative;
+    gap: 0.5rem;
+}
+
+.product__content--box:last-child {
+    border: none;
+}
+
+.product__content--box .seller__checked {
+    left: 4.5rem;
+    top: 4.5rem;
+}
+
+.product__content--img {
+    width: 6rem;
+    border-radius: var(--border-raduis-xl);
+    transition: 0.4s;
+}
+
+.product__content--img:hover {
+    border-radius: var(--border-raduis-3xl);
+}
+
+.product__content--box h4 {
+    margin-top: 0.8rem;
+}
+
+.product__content--box h4 span,
+.product__content--box p {
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 415px) {
+    .product__owner--box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .product__owner--position,
+    .product__owner--name {
+        text-align: center;
+    }
+    .product__bid--left,
+    .product__bid--right {
+        flex-wrap: wrap;
+    }
+}
