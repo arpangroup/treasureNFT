@@ -2,7 +2,7 @@ version: '3.8'
 services:
   webserver:
     build: .
-    container_name: php_app # php_webserver
+    container_name: php_webserver # php_webserver
     # image: mydemophpimage
     ports:
       - "8080:80"

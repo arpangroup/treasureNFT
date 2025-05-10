@@ -8,19 +8,14 @@ docker-compose up -d
 ````
 
 ````shell
-
 docker-compose down -v  # reset DB if already exists
 ````
 
-### Run the Application on Browser
-[http://localhost:8080](http://localhost:8080)
-
-#### Login as Admin `admin/admin`:
-[http://localhost:8080/admin](http://localhost:8080/admin)
-
-#### Login/Register User:
-[http://localhost:localhost:8080/user/register](http://localhost:localhost:8080/user/register) <br/>
-[http://localhost:8080/user/login](http://localhost:8080/user/login)
+### 2. Run the Application on Browser
+- HomePage: [http://localhost:8080](http://localhost:8080)
+- Login as Admin `admin/admin`: [http://localhost:8080/admin](http://localhost:8080/admin)
+- Register User: [http://localhost:localhost:8080/user/register](http://localhost:localhost:8080/user/register)
+- Login User: [http://localhost:8080/user/login](http://localhost:8080/user/login)
 
 
 ## Configurations
