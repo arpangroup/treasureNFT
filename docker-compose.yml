@@ -1,0 +1,38 @@
+version: '3.8'
+services:
+  webserver:
+    build: .
+    container_name: php_app # php_webserver
+    # image: mydemophpimage
+    ports:
+      - "8080:80"
+      # - "443:443"
+    volumes:
+      - ./app/revptc:/var/www/html
+    depends_on:
+      - db
+    environment:
+      - VIRTUAL_HOST=localhost
+      - VIRTUAL_PORT=80
+
+
+  db:
+    image: mysql:8.0
+    container_name: mysql_db
+    restart: always
+    environment:
+      # MYSQL_DB_CONNECTION: test
+      # MYSQL_DB_NAME: test
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      # loads the database.sql schema on runtime:
+      - ./init:/docker-entrypoint-initdb.d:ro # Mounts local ./init folder as read-only into MySQL's init directory
+
+volumes:
+  db_data:

@@ -1,0 +1,318 @@
+{
+    "dashboard": {
+        "keyword": [
+            "Dashboard",
+            "Home",
+            "Panel",
+            "User",
+            "Control center",
+            "Overview",
+            "Main hub",
+            "user hub",
+            "Central hub",
+            "Command center",
+            "User portal",
+            "Centralized interface",
+            "User console",
+            "Management dashboard",
+            "Main screen",
+            "User dashboard",
+            "Command dashboard",
+            "Main control panel"
+        ],
+        "title": "Dashboard",
+        "icon": "las la-home",
+        "route_name": "user.home",
+        "menu_active": "user.home"
+    },
+    "plans": {
+        "keyword": [
+            "Plan",
+            "Plan manage",
+            "Ptc Plan",
+            "Subscription"
+        ],
+        "title": "Plan",
+        "icon": "las la-paper-plane",
+        "route_name": "user.plan.index",
+        "menu_active": "user.plan.index"
+    },
+    "ptcs": {
+        "title": "PTC",
+        "icon": "las  la-exchange-alt",
+        "menu_active": "user.ptc*",
+        "submenu": [
+            {
+                "keyword": [
+                    "Ptc Plan",
+                    "Ptc",
+                    "Ads",
+                    "My ads",
+                    "Ads center",
+                    "Manage Ads"
+                ],
+                "title": "Ads",
+                "route_name": "user.ptc.index",
+                "menu_active": "user.ptc.index"
+            },
+            {
+                "keyword": [
+                    "Ptc Clicks",
+                    "Ptc",
+                    "Ads",
+                    "Clicks",
+                    "My ads click",
+                    "Clicks",
+                    "Manage Clicks",
+                    "Manage Ads"
+                ],
+                "title": "Clicks",
+                "route_name": "user.ptc.clicks",
+                "menu_active": "user.ptc.clicks"
+            }
+        ]
+    },
+    "bv_logs": {
+        "keyword": [
+            "BV",
+            "BV log",
+            "log"
+        ],
+        "title": "BV Log",
+        "icon": "las la-sitemap",
+        "route_name": "user.plan.bvLog",
+        "menu_active": "user.plan.bvLog"
+    },
+    "my_referrals": {
+        "keyword": [
+            "Referrals",
+            "My referrals"
+        ],
+        "title": "My Referrals",
+        "icon": "las la-users",
+        "route_name": "user.referral",
+        "menu_active": "user.referral"
+    },
+    "my_tree": {
+        "keyword": [
+            "My Tree",
+            "Tree",
+            "Referrals",
+            "My referrals"
+        ],
+        "title": "My Tree",
+        "icon": "las la-tree",
+        "route_name": "user.myTree",
+        "menu_active": "user.myTree"
+    },
+    "binary_summary": {
+        "keyword": [
+            "Binary Summary",
+            "Summary",
+            "Binary"
+        ],
+        "title": "Binary Summary",
+        "icon": "las la-chart-area",
+        "route_name": "user.binary.summary",
+        "menu_active": "user.binary.summary"
+    },
+    "deposits": {
+        "keyword": [
+            "Deposit",
+            "History",
+            "Report",
+            "Deposit History"
+        ],
+        "title": "Deposit",
+        "icon": "las la-file-invoice-dollar",
+        "route_name": "user.deposit.history",
+        "menu_active": "user.deposit.history"
+    },
+    "ptcs": {
+        "title": "PTC",
+        "icon": "las  la-exchange-alt",
+        "menu_active": "user.ptc*",
+        "submenu": [
+            {
+                "keyword": [
+                    "Ptc Plan",
+                    "Ptc",
+                    "Ads",
+                    "My ads",
+                    "Ads center",
+                    "Manage Ads"
+                ],
+                "title": "Ads",
+                "route_name": "user.ptc.index",
+                "menu_active": "user.ptc.index"
+            },
+            {
+                "keyword": [
+                    "Ptc Clicks",
+                    "Ptc",
+                    "Ads",
+                    "Clicks",
+                    "My ads click",
+                    "Clicks",
+                    "Manage Clicks",
+                    "Manage Ads"
+                ],
+                "title": "Clicks",
+                "route_name": "user.ptc.clicks",
+                "menu_active": "user.ptc.clicks"
+            }
+        ]
+    },
+    "withdrawals": {
+        "keyword": [
+            "Withdrawals",
+            "History",
+            "Withdrawals History"
+        ],
+        "title": "Withdrawals",
+        "icon": "las la-university",
+        "route_name": "user.withdraw.history",
+        "menu_active": [
+            "user.withdraw",
+            "user.withdraw.preview",
+            "user.withdraw.history"
+        ]
+    },
+    "balance_transfer": {
+        "keyword": [
+            "Balance Transfer",
+            "Balance",
+            "Transfer"
+        ],
+        "title": "Balance Transfer",
+        "icon": "las la-hand-holding-usd",
+        "route_name": "user.balance.transfer",
+        "menu_active": "user.balance.transfer"
+    },
+    "reports": {
+        "title": "Reports / Logs",
+        "icon": "las la-exchange-alt",
+        "menu_active": [
+            "user.transactions",
+            "user.invest",
+            "user.refCom",
+            "user.binaryCom"
+        ],
+        "submenu": [
+            {
+                "keyword": [
+                    "Transactions Log",
+                    "Transactions",
+                    "Report",
+                    "Log",
+                    "History"
+                ],
+                "title": "Transactions Log",
+                "route_name": "user.transactions",
+                "menu_active": "user.transactions"
+            }, {
+                "keyword": [
+                    "Invest Log",
+                    "Invest",
+                    "Report",
+                    "Log",
+                    "History"
+                ],
+                "title": "Invest Log",
+                "route_name": "user.invest",
+                "menu_active": "user.invest"
+            },
+            {
+                "keyword": [
+                    "Referral Commissions",
+                    "Referrals",
+                    "Commissions",
+                    "Report",
+                    "Log",
+                    "History"
+                ],
+                "title": "Referral Commissions",
+                "route_name": "user.refCom",
+                "menu_active": "user.refCom"
+            },
+            {
+                "keyword": [
+                    "Binary Commission",
+                    "Binary",
+                    "Commissions",
+                    "Report",
+                    "Log",
+                    "History"
+                ],
+                "title": "Binary Commission",
+                "route_name": "user.binaryCom",
+                "menu_active": "user.binaryCom"
+            }
+        ]
+    },
+    "twofactor": {
+        "keyword": [
+            "2FA Security",
+            "2Fa",
+            "Security"
+        ],
+        "title": "2FA Security",
+        "icon": "las la-shield-alt",
+        "route_name": "user.twofactor",
+        "menu_active": "user.twofactor"
+    },
+    "ticket": {
+        "keyword": [
+            "Support",
+            "Support Ticket",
+            "Ticket",
+            "Contact"
+        ],
+        "title": "Support",
+        "icon": "las la-ticket-alt",
+        "route_name": "ticket.index",
+        "menu_active": "ticket*"
+    },
+    "profiles": {
+        "keyword": [
+            "Profile",
+            "Setting",
+            "Profile Setting",
+            "Password",
+            "Password Setting",
+            "Change Password"
+        ],
+        "title": "Profile",
+        "icon": "las la-user",
+        "menu_active": ["user.profile.setting", "user.change.password"],
+        "route_name": "user.profile.setting"
+    },
+    "login_history": {
+        "keyword": [
+            "Login",
+            "History",
+            "Login History",
+            "Report",
+            "Login Report"
+        ],
+        "title": "Login History",
+        "icon": "las la-history",
+        "menu_active": "user.login.history",
+        "route_name": "user.login.history"
+    },
+    "logout": {
+        "keyword": [
+            "Log",
+            "Logout",
+            "Sign Out",
+            "Out"
+        ],
+        "title": "Logout",
+        "icon": "las la-sign-out-alt",
+        "menu_active": "user.logout",
+        "route_name": "user.logout"
+    }
+
+
+
+}
